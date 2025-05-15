@@ -46,7 +46,7 @@ Por fim, exibe uma mensagem com o resultado no seguinte formato:
 
 ## 📄 Exemplo de Saída
 
-
+```text
 🎮 Resultados das Partidas Rankeadas:
 
 Ronaldo: O Herói tem de saldo de 100 está no nível de Imortal
