@@ -8,7 +8,7 @@ function calcularPartidasRankeadas() {
         ["Pelé", 81, 5],
         ["Cafu", 95, 20],
         ["Taffarel", 101, 0],
-        ["JogadorX", 10, 5] // jogador com 10 vitórias para testar o caso
+        
     ];
 
     console.log("Resultados das Partidas Rankeadas:\n");
@@ -33,8 +33,6 @@ function calcularPartidasRankeadas() {
             nivel = "Lendário";
         } else if (vitorias >= 101) {
             nivel = "Imortal";
-        } else {
-            nivel = "Nível indefinido"; // para valores que não se encaixam (ex: 10)
         }
 
         console.log(`${nome}: O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`);
